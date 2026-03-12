@@ -40,3 +40,9 @@
 .read-the-docs {
   color: #888;
 }
+
+.info-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
