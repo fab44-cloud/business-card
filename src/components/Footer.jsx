@@ -1,11 +1,13 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTwitterSquare, faFacebookSquare, faInstagramSquare, faGithubSquare } from '@fortawesome/free-brands-svg-icons'
+import { faGithubSquare } from '@fortawesome/free-brands-svg-icons'
 
 export default function Footer() {
     return (
         <>
             <footer className="footer-container">
-                <FontAwesomeIcon icon={faGithubSquare} className="footer-icon" />
+                <a href="https://github.com/fab44-cloud" target="_blank" rel="noreferrer">
+                    <FontAwesomeIcon icon={faGithubSquare} className="footer-icon" />
+                </a>
             </footer>
         </>
     )

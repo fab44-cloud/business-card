@@ -11,6 +11,11 @@
   display: block;
 }
 
+.footer-container a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .footer-icon {
   font-size: 25px;
   color: #918E9B;
