@@ -11,6 +11,51 @@
   display: block;
 }
 
+.info-name {
+  font-size: 2rem;
+  margin-bottom: 0;
+  color: #FFFFFF;
+}
+
+.info-title {
+  margin-bottom: 0;
+  color: #f3bf99;
+}
+
+.info-website {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.info-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.btn-email, .btn-linkedin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border: 1px solid #d1d5db;
+  text-decoration: none;
+  padding: 9px 13px 9px 11px;
+}
+
+.btn-email {
+  background: #ffffff;
+  color: #374151;
+}
+
+.btn-linkedin {
+  background: #5093e2;
+  color: #ffffff;
+}
+
 .footer-container a {
   text-decoration: none;
   color: inherit;
