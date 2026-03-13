@@ -11,6 +11,14 @@
   display: block;
 }
 
+.info-name,
+.info-title,
+.info-website {
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
 .info-name {
   font-size: 2rem;
   margin-bottom: 0;
@@ -19,6 +27,7 @@
 
 .info-title {
   margin-bottom: 0;
+  margin-top: 0.2em;
   color: #f3bf99;
 }
 
