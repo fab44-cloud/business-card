@@ -10,3 +10,14 @@
   height: auto;
   display: block;
 }
+
+.footer-icon {
+  font-size: 25px;
+  color: #918E9B;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.footer-icon:hover {
+  color: #F5F5F5;
+}
