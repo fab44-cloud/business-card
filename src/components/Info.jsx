@@ -18,8 +18,10 @@ export default function Info() {
                         <span>Email</span>
                     </button>
                     <button className="btn-linkedin">
-                        <FontAwesomeIcon icon={faLinkedin} /> 
-                        <span>LinkedIn</span>
+                        <a href="https://www.linkedin.com/in/fordaberry/" target="_blank" rel="noreferrer">
+                            <FontAwesomeIcon icon={faLinkedin} /> 
+                            <span>LinkedIn</span>
+                        </a>
                     </button>
                 </div>
             </div>
