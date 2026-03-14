@@ -21,12 +21,6 @@ A personal digital business card built with **React** and **Vite**. This project
 - **Styling**: Pure CSS (Flexbox & Responsive Design)
 - **Deployment**: GitHub Pages
 
-## ⚙️ Local Setup
-
-1. Clone the repository: `git clone https://github.com/fab44-cloud/business-card.git`
-2. Install dependencies: `npm install`
-3. Start the dev server: `npm run dev`
-
 ## 📝 What I Learned
 
 - Managing **Node.js** versions using NVM.
