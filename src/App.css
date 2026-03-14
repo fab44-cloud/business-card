@@ -9,6 +9,8 @@
   width: 100%;
   height: auto;
   display: block;
+  max-height: 317px;
+  object-fit: cover;
 }
 
 .info-name,
@@ -65,13 +67,43 @@
   color: #ffffff;
 }
 
+.card-section {
+  padding: 0 35px;
+  text-align: left;
+}
+
+.section-title {
+  color: #F5F5F5;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-top: 2em;
+  margin-bottom: 5px;
+}
+
+.section-text {
+  color: #DCDED2;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.footer-container {
+  background-color: #161619;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 1.6em 0;
+  margin-top: 2.5em;
+  border-radius: 0 0 10px 10px;
+}
+
 .footer-container a {
   text-decoration: none;
   color: inherit;
 }
 
 .footer-icon {
-  font-size: 25px;
+  font-size: 2.08rem;
   color: #918E9B;
   cursor: pointer;
   transition: color 0.2s;
