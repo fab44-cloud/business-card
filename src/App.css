@@ -3,6 +3,8 @@
   background-color: #1A1B21;
   border-radius: 10px;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .info-image {
@@ -22,26 +24,31 @@
 }
 
 .info-name {
-  font-size: 2rem;
+  font-size: 1.56rem;
+  margin-top: 21px;
   margin-bottom: 0;
   color: #FFFFFF;
 }
 
 .info-title {
+  margin-top: 4px;
   margin-bottom: 0;
-  margin-top: 0.2em;
   color: #f3bf99;
+  font-size: 1.06rem;
 }
 
 .info-website {
   color: #FFFFFF;
   text-decoration: none;
+  margin-top: 9px;
+  margin-bottom: 15px;
 }
 
 .info-buttons {
   display: flex;
   justify-content: center;
-  gap: 1em;
+  gap: 17px;
+  margin-bottom: 20px;
 }
 
 .btn-email, .btn-linkedin {
@@ -67,6 +74,11 @@
   color: #ffffff;
 }
 
+.btn-linkedin a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .card-section {
   padding: 0 35px;
   text-align: left;
@@ -75,8 +87,8 @@
 .section-title {
   color: #F5F5F5;
   font-weight: 700;
-  font-size: 1.2rem;
-  margin-top: 2em;
+  font-size: 1rem;
+  margin-top: 15px;
   margin-bottom: 5px;
 }
 
@@ -92,8 +104,8 @@
   justify-content: center;
   align-items: center;
   gap: 24px;
-  padding: 1.6em 0;
-  margin-top: 2.5em;
+  padding: 15px 0;
+  margin-top: 20px;
   border-radius: 0 0 10px 10px;
 }
 
