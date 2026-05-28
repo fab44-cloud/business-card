@@ -4,7 +4,7 @@ A personal digital business card built with **React** and **Vite**.
 
 ## Live Demo
 
-[View my Business Card here:](https://fab44-cloud.github.io/business-card/)
+[View my Business Card here](https://fab44-cloud.github.io/business-card/)
 
 ## Features
 
